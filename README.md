@@ -17,7 +17,7 @@
 ### 🎙️ What I work on
 
 - **Speech data pipelines** — segmentation, denoising, source separation, diarization and DNSMOS quality scoring for TTS corpus construction, run GPU-accelerated on CUDA across thousands of hours of audio (optimized for **3× throughput**).
-- **TTS fine-tuning** — custom XTTS v2 models for production Gujarati and for Hindi, from native-speaker data collection through training.
+- **TTS fine-tuning** — XTTS v2 fine-tuning for Hindi, from corpus curation through GPU training.
 - **ASR evaluation** — benchmarking ASR systems against human-annotated ground truth with WER, CER and DER.
 - **Human-in-the-loop data** — annotation workflows that pair automated first-pass processing with human review.
 
@@ -30,7 +30,6 @@
 
 | Project | What it is |
 |---|---|
-| **Gujarati TTS (XTTS v2)** | Production Gujarati voice: native-speaker data collection, preprocessing and fine-tuning |
 | **Hindi TTS (XTTS v2)** | Fine-tuned on a curated 50-hour Hindi corpus, trained on RunPod GPUs |
 | **15-language synthetic speech corpus** | Parallel corpus via zero-shot voice cloning (OmniVoice), ~100 h per language, six matched styles: happy, sad, angry, storytelling, news read, commentary |
 | **ASR benchmarking** | Multi-vendor evaluation (Sarvam, AssemblyAI, Azure, Google, ElevenLabs and others) against human ground truth |
